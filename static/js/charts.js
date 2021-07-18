@@ -20,8 +20,7 @@ function init() {
   });
 }
 
-// Initialize the dashboard
-init();
+
 
 function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
@@ -94,3 +93,5 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
   });
 }
+// Initialize the dashboard
+init();
